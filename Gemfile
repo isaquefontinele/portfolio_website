@@ -31,6 +31,9 @@ gem 'autoprefixer-rails'
 # Tags
 gem 'acts-as-taggable-on', '~> 3.4'
 
+# Facebook Graph
+gem "koala", "~> 2.0"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

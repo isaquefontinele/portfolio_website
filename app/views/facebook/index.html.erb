@@ -1,0 +1,8 @@
+
+ <%= @face = FacebookController.new %>
+ <%= @face.get_feed.each do |f| %>
+
+    <li><%= "Post: #{f} " %></li>
+
+ <% end %>
+
